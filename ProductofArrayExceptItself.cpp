@@ -3,6 +3,10 @@ Question:  Given an array arr[] of n integers, output a Product Array (of the sa
 Example:
 Input: arr[]  = {10, 3, 5, 6, 2}
 Output: {180, 600, 360, 300, 900}
+
+For first element of product array:
+elements except 10 are 3 , 5 , 6 , 2 
+so first element of product array becomes : 3 * 5 * 6 * 2 =180
 */
 
 #include <iostream>
